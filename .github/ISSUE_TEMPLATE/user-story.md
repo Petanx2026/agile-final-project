@@ -1,4 +1,4 @@
---
+---
 name: User Story
 about: Create a user story
 title: ""
@@ -6,13 +6,14 @@ labels: ""
 assignees: ""
 ---
 
-**As a** [role]  
-**I need** [function]  
-**So that** [benefit]
+## User Story
+
+As a product administrator
+I need to delete a product from the catalog
+So that obsolete products are removed
 
 ### Acceptance Criteria
 
-Given ...
-When ...
-Then ...
-
+Given a product exists in the catalog
+When the administrator deletes the product
+Then the product should be removed from the catalog
